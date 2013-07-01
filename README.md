@@ -14,8 +14,10 @@ Installation
 First, install [tpope/vim-pathogen](https://github.com/tpope/vim-pathogen).
 
 Then, install this plugin into `~/.vim/bundle`:
-   cd ~/.vim/bundle
-   git clone https://github.com/CyCoreSystems/vim-cisco-ios
+```Shell
+$ cd ~/.vim/bundle
+$ git clone https://github.com/CyCoreSystems/vim-cisco-ios
+```
 
 Detection
 ---------

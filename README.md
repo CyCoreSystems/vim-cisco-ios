@@ -3,7 +3,7 @@ vim-cisco-ios
 
 Pathogen-style plugin for cisco IOS for Vim
 
-Syntax config file ripped from t9md/vim-starter-kit
+Syntax config file ripped from [t9md/vim-starter-kit](https://github.com/t9md/vim-starter-kit)
 
 This is pretty basic, so pull requests are definitely welcome.
 

@@ -15,7 +15,7 @@ syn match ciscoIpAddr /\<\(25[0-5]\|2[0-4][0-9]\|[01]\?[0-9][0-9]\?\)\.\(25[0-5]
 hi def link ciscoIpAddr	Number
 
 syntax match ciscoIfName /\<\(Loopback\|Tunnel\|Dialer\)[0-9][0-9]*\>/
-syn match ciscoIfName +\<\(Ethernet\|FastEthernet\)[0-9][0-9]*/[0-9][0-9]*\(/[0-9][0-9]*\)\?\(\.[0-9][0-9]*\)\?\>+
+syn match ciscoIfName +\<\(Ethernet\|FastEthernet\|Serial\)[0-9][0-9]*/[0-9][0-9]*\(/[0-9][0-9]*\)\?\(\.[0-9][0-9]*\)\?\>+
 syn match ciscoIfName +\<ATM[0-9][0-9]*\(/[0-9][0-9]*\)*\(\.[0-9][0-9]*\)\?\>+
 hi def link ciscoIfName Identifier
 
